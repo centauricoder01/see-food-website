@@ -13,33 +13,27 @@ const Footer = () => {
       <div className="footer">
         <div className="footerContainer">
           <div className="footerList">
-            <h4>TOP SELLERS</h4>
+            <h4>TOP SELLERS SEAFOOD</h4>
             <ul>
               <li>
-                <Link to="product?category=printing">
-                  Visiting Card/Brochure
+                <Link to="product?category=printing">King crab</Link>
+              </li>
+              <li>
+                <Link to="product?category=graphic">
+                  Coffin Bay king oysters
                 </Link>
               </li>
               <li>
-                <Link to="product?category=graphic">Graphics/logo Design</Link>
+                <Link to="product?category=marketing">Almas caviar</Link>
               </li>
               <li>
-                <Link to="product?category=marketing">
-                  Advertising & Publishing
-                </Link>
+                <Link to="product?category=stationary">White Albino</Link>
               </li>
               <li>
-                <Link to="product?category=stationary">
-                  Office Stationeries
-                </Link>
+                <Link to="product?category=gifts">Bluefin tuna</Link>
               </li>
               <li>
-                <Link to="product?category=gifts">Customized Gift Items</Link>
-              </li>
-              <li>
-                <Link to="product?category=fabric">
-                  Fabric/Textile Printing
-                </Link>
+                <Link to="product?category=fabric">Anguilla Japonica</Link>
               </li>
             </ul>
           </div>
@@ -58,12 +52,6 @@ const Footer = () => {
               <li>
                 <Link to="/product">Products</Link>
               </li>
-              {/* <li>
-                <Link to="/bag">Cart</Link>
-              </li>
-              <li>
-                <Link to="/orders">Orders</Link>
-              </li> */}
             </ul>
           </div>
           <div className="footerList">
@@ -71,18 +59,18 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="tel:8981167906">
-                  <IoLogoWhatsapp className="footerIcon" /> +91-8981167906
+                  <IoLogoWhatsapp className="footerIcon" /> +1 310-667-7914
                 </a>
               </li>
               <li>
-                <a target="blank" href="mailto: justprintkarodotcom@gmail.com">
+                <a target="blank" href="mailto: GHS Seafood LDA@gmail.com">
                   <MdEmail className="footerIcon" />
                   Send Email
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/sk-rajeev-4555a7264/"
+                  href="https://www.linkedin.com/in/GHS Seafood LDA/"
                   target="blank"
                 >
                   <FaLinkedin className="footerIcon" />
@@ -90,14 +78,14 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/just_print_karo" target="blank">
+                <a href="https://twitter.com/GHS Seafood LDA" target="blank">
                   <BsTwitter className="footerIcon" />
                   Twitter
                 </a>
               </li>
               <li>
                 <a
-                  href="https://www.youtube.com/@justprintkarodotcom/videos"
+                  href="https://www.youtube.com/@GHS Seafood LDA/videos"
                   target="blank"
                 >
                   <FaYoutube className="footerIcon" />
@@ -106,7 +94,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/profile.php?id=100089838015682"
+                  href="https://www.facebook.com/GHS Seafood LDA"
                   target="blank"
                 >
                   <BsFacebook className="footerIcon" />
@@ -115,7 +103,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/justprintkarodotcom/"
+                  href="https://www.instagram.com/GHS Seafood LDA/"
                   target="blank"
                 >
                   <AiFillInstagram className="footerIcon" />
@@ -123,7 +111,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://justprintkaro.blogspot.com/" target="blank">
+                <a href="https://GHS Seafood LDA.com/" target="blank">
                   <MdModeComment className="footerIcon" />
                   Blogs
                 </a>
@@ -134,13 +122,13 @@ const Footer = () => {
             <h4>ABOUT US</h4>
             <ul>
               <li>
-                <p>JustPrintKaro</p>
+                <p>GHS Seafood LDA</p>
               </li>
               <li>
-                <p>Kolkata ,700102</p>
+                <p>691 Forest AvePortland</p>
               </li>
               <li>
-                <p>West Bengal , India</p>
+                <p>ME 04103, USA</p>
               </li>
               <li>
                 <p>
@@ -152,10 +140,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="footerHeader">
-        <p>JustPrintKaro.com &#169; All rights reserved , 2023 - 2024</p>
+        <p>GHS Seafood LDA &#169; All rights reserved , 2023 - 2024</p>
         <p>
-          <a href="https://piyush-agrawal6.github.io/" target="blank">
-            Created By CodeWithJoy
+          <a href="https://centauricoder01.github.io/" target="blank">
+            Created By Rajendra Patel
           </a>
         </p>
       </div>
