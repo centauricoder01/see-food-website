@@ -33,57 +33,78 @@
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* Basic styling */
-.input-container {
-  position: relative;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-.custom-input {
-  width: calc(100% - 20px);
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  z-index: 1;
-}
-
-.input-label {
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  color: #888;
-  font-size: 16px;
-  pointer-events: none;
-  transition: 0.3s ease-in-out;
-  z-index: 2;
-}
-
-.input-border {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #4caf50; /* Change the border color according to your preference */
-  transform-origin: bottom right;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-  z-index: 1;
-}
-
-/* When the input field is focused or has value, move the label up and show the border */
-.custom-input:focus + .input-label,
-.custom-input:not(:placeholder-shown) + .input-label,
-.custom-input:focus ~ .input-border {
-  top: 10px;
-  font-size: 12px;
-  transform: scaleX(1);
-}
 
 .contact-input-div {
-  width: 70%;
+  width: 50%;
   margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+.first-input-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.second-input-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+input {
+  width: 100%;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding-left: 1rem;
+}
+
+textarea {
+  margin-top: 3rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding-left: 1rem;
+}
+
+input:focus {
+  outline: none !important;
+}
+textarea:focus {
+  outline: none !important;
+}
+
+.custom-button {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
 }
