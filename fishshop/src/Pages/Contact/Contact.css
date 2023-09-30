@@ -84,6 +84,7 @@ textarea {
 input:focus {
   outline: none !important;
 }
+
 textarea:focus {
   outline: none !important;
 }

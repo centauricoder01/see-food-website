@@ -42,9 +42,6 @@ const Navbar = () => {
         <Link to={"/contact"}>
           <p className="para-navbar-div">Contact</p>
         </Link>
-        <Link to={"/partner"}>
-          <p className="para-navbar-div">Partner</p>
-        </Link>
       </div>
 
       {/* DRAWER START FROM HERE */}
@@ -67,9 +64,6 @@ const Navbar = () => {
         />
         <Link to={"/contact"}>
           <p className="para-navbar-div">Contact</p>
-        </Link>
-        <Link to={"/partner"}>
-          <p className="para-navbar-div">Partner</p>
         </Link>
       </Drawer>
     </div>

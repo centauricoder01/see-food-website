@@ -37,10 +37,6 @@ const Home = () => {
       </div>
 
       {/* MAIN PART START FROM HERE */}
-
-      <div>
-        <div className="homeNav"></div>
-      </div>
       <p className="homeHeader">TOP SELLERS</p>
       <div className="homeColors">
         <div>
@@ -216,6 +212,52 @@ const Home = () => {
               alt="IMG"
             />
           </Link>
+        </div>
+      </div>
+      <p className="homeHeader">Our Partners</p>
+
+      <div class="image-strip">
+        <div class="images-container">
+          <img
+            src={require("../../Assets/partners/1.png")}
+            alt="Partner"
+            width={100}
+          />
+          <img
+            src={require("../../Assets/partners/2.png")}
+            alt="Partner"
+            width={100}
+          />
+          <img
+            src={require("../../Assets/partners/3.png")}
+            alt="Partner"
+            width={100}
+          />
+          <img
+            src={require("../../Assets/partners/4.jpeg")}
+            alt="Partner"
+            width={100}
+          />
+          <img
+            src={require("../../Assets/partners/5.png")}
+            alt="Partner"
+            width={100}
+          />
+          <img
+            src={require("../../Assets/partners/6.webp")}
+            alt="Partner"
+            width={100}
+          />
+          <img
+            src={require("../../Assets/partners/7.jpg")}
+            alt="Partner"
+            width={100}
+          />
+          <img
+            src={require("../../Assets/partners/8.png")}
+            alt="Partner"
+            width={100}
+          />
         </div>
       </div>
     </div>

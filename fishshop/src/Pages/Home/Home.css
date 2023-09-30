@@ -52,6 +52,31 @@
   word-spacing: 2px;
   color: #0ea3c8;
 }
+
+/* continures images style start from here  */
+
+.image-strip {
+  width: 100%;
+  /* border: 1px solid red; */
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.images-container {
+  display: flex;
+  animation: slide 40s linear infinite;
+  gap: 5rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 @media (max-width: 1200px) {
   .homeHeader {
     width: 90%;

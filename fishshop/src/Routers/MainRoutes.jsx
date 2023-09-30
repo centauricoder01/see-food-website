@@ -17,7 +17,6 @@ const MainRoutes = () => {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/product" element={<Product />}></Route>
-        <Route path="/partner" element={<Partner />}></Route>
         <Route path="*" element={<Home />}></Route>
       </Routes>
       <Footer />
