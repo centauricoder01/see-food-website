@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Drawer, Dropdown, Collapse } from "antd";
+import { Drawer, Dropdown } from "antd";
 import { Link } from "react-router-dom";
 import logo from "../../Assets/logo.png";
 import "./Navbar.css";
@@ -48,23 +48,35 @@ const Navbar = () => {
       <GiHamburgerMenu onClick={showDrawer} className="navbar-menu-div" />
       <Drawer title="Surprice" placement="right" onClose={onClose} open={open}>
         <Link to={"/"}>
-          <p className="para-navbar-div">Home</p>
+          <p className="para-navbar-div" onClose={onClose}>
+            Home
+          </p>
+          <hr />
         </Link>
         <Link to={"/about"}>
-          <p className="para-navbar-div">About</p>
+          <p className="para-navbar-div" onClose={onClose}>
+            About
+          </p>
+          <hr />
         </Link>
-        <Collapse
-          items={[
-            {
-              key: "1",
-              label: "Product",
-              children: <p>{"Some"}</p>,
-            },
-          ]}
-        />
+        <Link to={"/product"}>
+          <p className="para-navbar-div" onClose={onClose}>
+            Product
+          </p>
+          <hr />
+        </Link>
         <Link to={"/contact"}>
-          <p className="para-navbar-div">Contact</p>
+          <p className="para-navbar-div" onClose={onClose}>
+            Contact
+          </p>
+          <hr />
         </Link>
+        <img
+          src={require("../../Assets/logo.png")}
+          alt="logo"
+          width={100}
+          className="drawer-logo"
+        />
       </Drawer>
     </div>
   );

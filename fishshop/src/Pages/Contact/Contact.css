@@ -109,3 +109,37 @@ textarea:focus {
 .custom-button:hover {
   background-color: #45a049;
 }
+
+@media (max-width: 769px) {
+  .contact-input-div {
+    width: 90%;
+  }
+  textarea {
+    width: 100%;
+  }
+  .contact-para {
+    width: 90%;
+  }
+}
+
+@media (max-width: 427px) {
+  .contact-input-div {
+    width: 90%;
+    padding: 10px;
+  }
+  .first-input-div {
+    gap: 1rem;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .second-input-div {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  textarea {
+    margin-top: 1rem;
+  }
+  .contact-para {
+    width: 95%;
+  }
+}

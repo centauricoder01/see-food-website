@@ -6,7 +6,6 @@ import Footer from "../Components/Footer/Footer";
 import About from "../Pages/About/About";
 import Contact from "../Pages/Contact/Contact";
 import Product from "../Pages/Product/Product";
-import Partner from "../Pages/Partner/Partner";
 
 const MainRoutes = () => {
   return (
