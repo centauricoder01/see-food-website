@@ -9,35 +9,35 @@ const Product = () => {
       <div className="main-product-div">
         <SingleItem
           Image={require("../../Assets/Product-img/Abalone/1.jpg")}
-          title="SomeName"
+          title="Abalone"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Almas_caviar/1.jpg")}
-          title="SomeName"
+          title="Almas caviar"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Anguilla_Australis/1.jpg")}
-          title="SomeName"
+          title="Anguilla Australis"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Anguilla_Japonica/1.jpg")}
-          title="SomeName"
+          title="Anguilla Japonica"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Anguilla_anguilla/1.jpg")}
-          title="SomeName"
+          title="Anguilla anguilla"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Anguilla_rostrate/1.png")}
-          title="SomeName"
+          title="Anguilla rostrate"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Bluefin_tuna/1.jpg")}
-          title="SomeName"
+          title="Bluefin tuna"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Canadian_Geoduck_Clam/1.jpg")}
-          title="SomeName"
+          title="Canadian Geoduck Clam"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Coffin_Bay_king_oysters/1.jpg")}
@@ -45,7 +45,7 @@ const Product = () => {
         />
         <SingleItem
           Image={require("../../Assets/Product-img/European_Dover_Sole/1.jpg")}
-          title="SomeName"
+          title="Coffin Bay king oysters"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/King_crab/1.jpg")}
@@ -53,7 +53,7 @@ const Product = () => {
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Percebes/1.webp")}
-          title="SomeName"
+          title="King crab"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Sea_Cucumber/1.webp")}
@@ -61,19 +61,19 @@ const Product = () => {
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Sea_Urchin/1.jpg")}
-          title="SomeName"
+          title="Sea Cucumber"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/White_Albino/1.webp")}
-          title="SomeName"
+          title="White Albino"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/lobster/1.jpg")}
-          title="SomeName"
+          title="Lobster"
         />
         <SingleItem
           Image={require("../../Assets/Product-img/Almas_caviar/2.jpg")}
-          title="SomeName"
+          title="Almas caviar"
         />
       </div>
     </>

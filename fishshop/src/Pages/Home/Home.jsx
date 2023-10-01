@@ -40,7 +40,7 @@ const Home = () => {
       <p className="homeHeader">TOP SELLERS</p>
       <div className="homeColors">
         <div>
-          <Link to="/product?subcategory=visitingcard">
+          <Link to="/product">
             <img
               src={require("../../Assets/Product-img/Abalone/1.jpg")}
               alt="img"
@@ -48,7 +48,7 @@ const Home = () => {
           </Link>
         </div>
         <div>
-          <Link to="/product?subcategory=stamp">
+          <Link to="/product">
             <img
               src={require("../../Assets/Product-img/Almas_caviar/1.jpg")}
               alt=""

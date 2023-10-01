@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { Drawer, Dropdown } from "antd";
+import { Drawer } from "antd";
 import { Link } from "react-router-dom";
 import logo from "../../Assets/logo.png";
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { items } from "./data";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -20,7 +19,9 @@ const Navbar = () => {
   return (
     <div className="main-navbar-div">
       <div className="image-navbar-div">
+        {/* <Link to={"/"}> */}
         <img src={logo} alt="logo" />
+        {/* </Link> */}
       </div>
       <div className="links-navbar-div">
         <Link to={"/"}>
@@ -29,16 +30,10 @@ const Navbar = () => {
         <Link to={"/about"}>
           <p className="para-navbar-div">About</p>
         </Link>
-        <Dropdown
-          menu={{
-            items,
-          }}
-          placement="bottom"
-          arrow
-          bold
-        >
-          <p>Products</p>
-        </Dropdown>
+        <Link to={"/product"}>
+          <p className="para-navbar-div">Products</p>
+        </Link>
+
         <Link to={"/contact"}>
           <p className="para-navbar-div">Contact</p>
         </Link>
@@ -48,7 +43,7 @@ const Navbar = () => {
       <GiHamburgerMenu onClick={showDrawer} className="navbar-menu-div" />
       <Drawer title="Surprice" placement="right" onClose={onClose} open={open}>
         <Link to={"/"}>
-          <p className="para-navbar-div" onClose={onClose}>
+          <p className="para-navbar-div" onClose={onClose} open={open}>
             Home
           </p>
           <hr />

@@ -1,6 +1,6 @@
-/* .main-home-div {
+.main-home-div {
   margin-top: 4rem;
-} */
+}
 
 /* DEFAULT CODE START FROM HERE */
 
@@ -43,6 +43,7 @@
   margin: 0;
   padding: 0;
 }
+
 .homeHeader {
   width: 90%;
   margin: 3rem auto;

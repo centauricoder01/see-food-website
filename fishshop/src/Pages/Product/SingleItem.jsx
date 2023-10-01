@@ -1,5 +1,6 @@
 import React from "react";
 import "./Product.css";
+import { Link } from "react-router-dom";
 
 const SingleItem = ({ Image, title }) => {
   return (
@@ -7,7 +8,9 @@ const SingleItem = ({ Image, title }) => {
       <div className="single-product-div">
         <img src={Image} alt="" />
         <p>{title}</p>
-        <button className="button-33">Show More</button>
+        <Link to={"/product/something"}>
+          <button className="button-33">Show More</button>
+        </Link>
       </div>
     </>
   );
