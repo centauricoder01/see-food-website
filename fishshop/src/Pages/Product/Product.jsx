@@ -75,7 +75,7 @@ const Product = () => {
         />
         <SingleItem
           Image={require("../../Assets/Product-img/White_Albino/1.webp")}
-          title="White Albino"
+          title="White Albino sturgeon caviar"
           location="/product/product6"
         />
         <SingleItem

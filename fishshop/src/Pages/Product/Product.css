@@ -165,6 +165,9 @@
   .single-product-div img {
     height: 8rem;
   }
+  .single-product-div p {
+    font-size: 10px;
+  }
   .main-singlepro-div {
     width: 100%;
   }
