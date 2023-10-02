@@ -16,24 +16,22 @@ const Footer = () => {
             <h4>TOP SELLERS SEAFOOD</h4>
             <ul>
               <li>
-                <Link to="product?category=printing">King crab</Link>
+                <Link to="/product/product10">King crab</Link>
               </li>
               <li>
-                <Link to="product?category=graphic">
-                  Coffin Bay king oysters
-                </Link>
+                <Link to="product/product11">Coffin Bay king oysters</Link>
               </li>
               <li>
-                <Link to="product?category=marketing">Almas caviar</Link>
+                <Link to="product/product7">Almas caviar</Link>
               </li>
               <li>
-                <Link to="product?category=stationary">White Albino</Link>
+                <Link to="product/product6">White Albino</Link>
               </li>
               <li>
-                <Link to="product?category=gifts">Bluefin tuna</Link>
+                <Link to="product/product5">Bluefin tuna</Link>
               </li>
               <li>
-                <Link to="product?category=fabric">Anguilla Japonica</Link>
+                <Link to="product/product1">Anguilla Japonica</Link>
               </li>
             </ul>
           </div>
@@ -47,7 +45,7 @@ const Footer = () => {
                 <Link to="/profile">About Us</Link>
               </li> */}
               <li>
-                <Link to="/profile">Profile</Link>
+                <Link to="/about">Profile</Link>
               </li>
               <li>
                 <Link to="/product">Products</Link>
@@ -58,10 +56,12 @@ const Footer = () => {
             <h4>LET US HELP</h4>
             <ul>
               <li>
-                <a href="tel:8981167906">
-                  <IoLogoWhatsapp className="footerIcon" /> +1 310-667-7914
+                <a href="tel:3106677914">
+                  <IoLogoWhatsapp className="footerIcon" /> +1 3106677914, +351
+                  937961541
                 </a>
               </li>
+
               <li>
                 <a target="blank" href="mailto: GHS Seafood LDA@gmail.com">
                   <MdEmail className="footerIcon" />
@@ -125,10 +125,14 @@ const Footer = () => {
                 <p>GHS Seafood LDA</p>
               </li>
               <li>
-                <p>691 Forest AvePortland</p>
+                <p>691 Forest AvePortland, ME 04103, USA</p>
               </li>
               <li>
-                <p>ME 04103, USA</p>
+                <p></p>
+                <p>
+                  Avenida De França N 256 8 4050-276 Porto, Portugal VAT: PT
+                  516386433
+                </p>
               </li>
               <li>
                 <p>

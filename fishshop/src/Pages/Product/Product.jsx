@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Product.css";
 import SingleItem from "./SingleItem";
 
 const Product = () => {
+
+  useEffect(() => {
+    // Scrolls the page to the top when the component mounts
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <>
       <h2 className="your-products">Your Products</h2>

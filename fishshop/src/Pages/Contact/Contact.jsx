@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.css";
 import { message } from "antd";
 
@@ -11,6 +11,10 @@ const Contact = () => {
       content: "We will contact you soon...",
     });
   };
+
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []); 
 
   return (
     <>

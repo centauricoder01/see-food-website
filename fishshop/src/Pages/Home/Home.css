@@ -65,7 +65,7 @@
 
 .images-container {
   display: flex;
-  animation: slide 40s linear infinite;
+  animation: slide 30s linear infinite;
   gap: 5rem;
 }
 
